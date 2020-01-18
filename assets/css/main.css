@@ -2388,8 +2388,8 @@
 	}
 
 	.thumbnailMain a:hover {
-		background-color: rgba(255, 255, 255, 0.25);
-		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25), 0 0 0.5em 0 #FF6382;
+		background-color: rgba(238, 155, 238, 0.25);
+		box-shadow: inset 0 0 0 5px rgba(17, 1, 1, 0.25), 0 0 0.5em 0 rgb(0, 2, 19);
 	}
 	.thumbnailMain a h3 {
 		margin: 1em;
@@ -2404,7 +2404,7 @@
 		-ms-flex-direction: column;
 		flex-direction: column;
 		width: calc(100% / 3);
-		padding-left: 2em;
+		padding-left: 4em;
 	}
 
 	.thumbnailMain a {
@@ -2414,11 +2414,16 @@
 			margin: 0 0 2em 0;
 			text-align: center;
 			border-radius: 4px;
-			box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
+			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
 			background-color: rgba(255, 255, 255, 0.075);
 			cursor: pointer;
 			outline: 0;
 			overflow: show;
+		}
+		.thumbnailMain a img {
+			width: 99%;
+			border-top-left-radius: 4px;
+			border-top-right-radius: 4px;
 		}
 
 	.thumbnails {
